@@ -1,0 +1,77 @@
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+.wrapper .background {
+  display: flex;
+  width: 1080px;
+  height: auto;
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.wrapper .background .players {
+  margin: 5px auto 10px auto;
+  height: 490px;
+  width: 300px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.wrapper .background .players .DC {
+  display: flex;
+  flex-flow: column;
+}
+.wrapper .background .players .DC .dealer {
+  width: 100px;
+}
+.wrapper .background .players .DC .cardDealer {
+  height: 65px;
+  width: 500px;
+}
+.wrapper .background .players .PC {
+  display: flex;
+  flex-flow: column;
+}
+.wrapper .background .players .PC .cardPlayer {
+  height: 65px;
+  width: 200px;
+  overflow: visible;
+}
+.wrapper .background .dealer {
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+}
+.wrapper .background .player {
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+}
+.wrapper .sidebar {
+  width: 150px;
+  height: 540px;
+  border: 1px solid black;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.wrapper .sidebar #scoreDealer {
+  border: 1px solid black;
+}
+.wrapper .sidebar #scorePlayer {
+  border: 1px solid black;
+}
+.wrapper .sidebar .scoreDisplay {
+  display: flex;
+  flex-flow: column;
+}
+
+.player-hand {
+  width: 45px;
+  height: 60px;
+}
+
+/*# sourceMappingURL=style.css.map */
