@@ -1,0 +1,40 @@
+#table, th, tr {
+  border: 1px solid black;
+}
+
+#table, th :nth-child(0) {
+  width: 300px;
+}
+
+#table, th :nth-child(1) {
+  width: 600px;
+}
+
+tr :nth-child(1) {
+  background-color: lightgray;
+  width: 20%;
+  height: 30px;
+}
+
+tr :nth-child(2) {
+  background-color: yellow;
+  width: 80%;
+  height: 30px;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
