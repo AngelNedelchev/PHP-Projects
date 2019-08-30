@@ -5,16 +5,16 @@ border: 1px solid black;
     width: 300px;
 }
 #table, th :nth-child(1){
-    width: 600px;
+    width: 650px;
 }
 tr :nth-child(1){
     background-color: lightgray;
-    width: 20%;
+    width: 10%;
     height: 30px;
 }
 tr :nth-child(2){
-    background-color: yellow;
-    width: 80%;
+    background-color: rgb(185, 185, 185);
+    width: 90%;
     height: 30px;
 }
 .wrapper{
@@ -24,4 +24,34 @@ tr :nth-child(2){
 }
 header {
     text-align: center;
+    color: white;
+    background-color: black;
+}
+body{
+    background-image: url("img/12.jpg");
+}
+#abc{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#CCC, th, tr{
+    border: 1px solid black;
+    }
+    #CCC, th :nth-child(0){
+        width: 300px;
+    }
+    #CCC, th :nth-child(1){
+        width: 600px;
+    }
+
+a h1{
+    text-align: center;
+    background-color: black;
+    border: 1px solid black;
 }
