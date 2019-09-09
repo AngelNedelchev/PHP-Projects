@@ -1,0 +1,43 @@
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color:green;
+}
+
+.input{
+    text-align: center;
+    background-color: black;
+}
+.fname, .lname, .username, .linkedin, .github, .email,
+.password, .c-password, .avatar, .video, .quote, .quote_author {
+
+    background-color: rgba(204, 204, 204, 0.904);
+    color: white;
+    transform: scale(1);
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 15px;
+    width: 250px;
+}
+
+#preferred_language{
+    margin: 0 0 50px 0;
+    color: white;
+    background-color: rgb(158, 140, 140);
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid rgb(78, 87, 0);
+}
+ .wrap-pl{
+    display: flex;
+    justify-content: center;
+}
+.wrap-sub{
+    
+}
+h1{
+    margin-left: 55px;
+}

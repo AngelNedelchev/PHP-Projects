@@ -1,0 +1,41 @@
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.wrapper .allData {
+  background: lightblue;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.preferred_language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bill img {
+  height: 300px;
+  width: 500px;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=style.css.map */
