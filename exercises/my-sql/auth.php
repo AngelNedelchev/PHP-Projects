@@ -36,27 +36,11 @@ if(!$uppercase || !$lowercase || !$number || strlen($password) < 6) {
     $lnameError = "No numbers or special characters" . "<br>" .  "allowed in last name ";
 }elseif(!preg_match("/^[a-zA-Z0-9]+$/",$username)){
     $usernameError = "Only numbers and letters" . "<br>" .  "allowed in username ";
-}
-
-elseif(!filter_var($email, FILTER_VALIDATE_EMAIL)){
+}elseif(!filter_var($email, FILTER_VALIDATE_EMAIL)){
     $notValidEmail = "$email is not a valid email address";
 }else{
     $data = "INSERT INTO hopper_2 ( first_name, last_name, username, linkedin, github, email, preferred_language, avatar, video, quote, quote_author, password) 
     VALUES ('$fname', '$lname', '$username', '$linkedin', '$github', '$email', '$preferred_language', '$avatar', '$video', '$quote', '$quote_author', '$hash')";
-    
-
-
-    if(isset($_GET['user'])){;
-    $id = $_GET['user'];
-    }
-    
-    $sql = "SELECT * FROM hopper_2 WHERE id=$id";
-    $result = mysqli_query($conn, $sql);
-    $row = mysqli_fetch_array($result);
-    
-    
-    
-    
 }
 
 // check if data is pushed to the database
@@ -65,5 +49,4 @@ if($conn->query($data) === true){
     }else {
     echo "error . $data" . $conn->error;
     }
-
 ?>
