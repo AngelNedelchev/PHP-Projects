@@ -2,7 +2,10 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color:green;
+}
+body{
+    background-image: url(img/background.svg);
+    background-repeat: no-repeat;
 }
 
 .input{
@@ -13,7 +16,7 @@
 .password, .c-password, .avatar, .video, .quote, .quote_author {
 
     background-color: rgba(204, 204, 204, 0.904);
-    color: white;
+    color: black;
     transform: scale(1);
     margin: 10px 10px 10px 10px;
     padding: 5px 5px 5px 5px;
@@ -36,8 +39,52 @@
     justify-content: center;
 }
 .wrap-sub{
-    
+    display: flex;
+    justify-content: center;
+}
+#sub{
+    margin: 50px 0 0 0;
+    color: white;
+    background-color: rgb(158, 140, 140);
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid rgb(78, 87, 0);
 }
 h1{
     margin-left: 55px;
 }
+
+form{
+    padding: 10px;
+    background-color: rgba(90, 90, 90, 0.5);
+    border-radius: 20px;
+
+}
+
+#error{
+    color: red;
+    margin-left: 15px;
+}
+
+#NVE {
+    color: red;
+    margin-left: 15px;
+}
+
+#FNE{
+    color: red;
+    margin-left: 15px;
+}
+
+#LNE{
+    color: red;
+    margin-left: 15px;
+}
+
+#UNE{
+    color: red;
+    margin-left: 15px;
+}
+

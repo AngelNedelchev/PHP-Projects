@@ -18,7 +18,8 @@ if($resultCheck > 0){
                  "<td>" . "<a href='profile.php?user=" . $row['id'] . "'>" . $row['first_name'] . " " . $row['last_name'] . "</a>" . "</td> " .
                  "<td>" . $row['email'] . " " . "</td> " .
                  "<td>" . "<img height=\"50px\" src='img/" . $row['preferred_language'] . ".svg'>" . " " . "</td> " .
-                 "<td>" . "<img height='50px' src = '".$row['avatar']."'>" . " " . "</td> " 
+                 "<td>" . "<img height='50px' src = '".$row['avatar']."'>" . " " . "</td> " .
+                 "<td>" . $row['linkedin'] . " " . "</td>" 
                 . "</tr>" ;
          }
  }

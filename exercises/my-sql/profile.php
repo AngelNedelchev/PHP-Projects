@@ -24,7 +24,6 @@ $row = mysqli_fetch_array($result);
 
 
 
-
 closeConnection($conn);
 
 ?>
